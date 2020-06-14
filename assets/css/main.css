@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgba(179, 202, 51, 0.418);
+}
+/* Virago logo text change*/
+
+.mainhover{
+    color:#000;
+    cursor: pointer;
+
+}
+.mainhover .e-walletlogo{
+    display: none;
+}
+.mainhover:hover .viragologo{
+    display: none;
+}
+.mainhover:hover .e-walletlogo{
+    display: inline;
+}
+div i.iconSize{
+    font-size: 30px;
+}
+div.firstDiv{
+    background-image:linear-gradient(to right, #eb31db 33.33%, #ff9c07 33.33%);
+}
+div p a i.electricity_icon{
+    color: #ff9c07;
+    -webkit-animation: colorchange 20s infinite alternate;
+
+}
+@-webkit-keyframes colorchange{
+    20%{
+        color: purple;
+    }
+    80%{
+        color:hsl(36, 100%, 51%);
+    }
+
+}
+div p a i.gas_icon{
+    color: #ec36dd;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: shake;
+    /*referring directly to the animation's @keyframe declaration*/
+    animation-duration: 2s; /* don't forget to set a duration! */
+      
+}
+div p a i.Broadband_icon{
+    color: #ec36dd;
+
+}
+div p a i.Mobile_Rchrg_icon{
+    color: #ec36dd;
+}
+div p a i.Money_Transfer{
+    color: #ec36dd;
+}
+div p a i.DTH_Recharge{
+    color: #ec36dd;
+}
+div p a i.Water_Bill{
+    color: #ec36dd;
+    animation: bounce;
+    animation-duration: 2s;
+}
